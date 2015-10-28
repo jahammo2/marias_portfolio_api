@@ -40,6 +40,8 @@ group :development, :test do
   gem 'awesome_print'
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'shoulda-matchers', '2.8.0'
+ 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
