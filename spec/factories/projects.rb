@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :project do
-    name "MyString"
-    body "MyString"
-    designation "MyString"
+    name { Faker::Name.first_name }
+    body { Faker::Lorem.paragraph(1) }
+    designation "mobile"
   end
 end
