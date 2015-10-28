@@ -29,6 +29,7 @@ gem 'active_model_serializers'
 
 # Use Unicorn as the app server
 gem 'unicorn'
+gem 'active_interaction'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
